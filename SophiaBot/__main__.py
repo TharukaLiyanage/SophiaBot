@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there! My name is <b>Sophia.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
+PM_START_TEXT = """Hey there! My name is <b>White Tharukz.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"""
 
 buttons = [
     [
@@ -86,8 +86,8 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text="YouTube 🙋‍♀️ ", url=f"https://www.youtube.com/c/TharukzGaming"),
+        InlineKeyboardButton(text="Support Group 💬 ", url=f"https://t.me/TheOpenWorldTharukz"),
     ],
     [
         InlineKeyboardButton(text="➕ Add me to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
@@ -95,10 +95,10 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-Hi Boss! I'm <b>Sophia</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
+Hi Boss! I'm <b>White Tharukz</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you.
 """
 
-DONATE_STRING = """ Join Updates Channel @SophiaUpdates | Support Group @SophiaSupport_Official"""
+DONATE_STRING = """  Support Group @TheOpenWorldtharukz"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text("Heya, Sophia here :) PM me if you have any questions how to use me!")
+        update.effective_message.reply_text("Heya, White Tharukz here :) PM me if you have any questions how to use me!")
 
 
 def error_handler(update, context):
@@ -338,7 +338,7 @@ def sophia_about_callback(update, context):
     query = update.callback_query
     if query.data == "sophia_":
         query.message.edit_text(
-            text=""" My name is *Sophia*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
+            text=""" My name is *White Tharukz*, I have been written with Pyrogram and Telethon.. I'm online since 10 June 2021 and is constantly updated!
 *Bot Version: 3.0*
 \n*Bot Developers:*
 -  @dihanrandila
